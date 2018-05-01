@@ -2,3 +2,15 @@
 body {
   background-color: #85e3f8;
 }
+
+.navbar {
+  height: 109px;
+  background-color: #dbd645;
+}
+
+.logo {
+  width: 117px;
+  height: 68px;
+  margin-top: -5px;
+  margin-left: 5px;
+}
