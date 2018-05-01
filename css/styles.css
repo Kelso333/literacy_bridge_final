@@ -13,6 +13,12 @@ body {
   height: 68px;
   margin-top: -5px;
   margin-left: 5px;
+} 
+
+#navbarText {
+  background-color: white;
+  margin-top: 10px;
 }
+
 
 
