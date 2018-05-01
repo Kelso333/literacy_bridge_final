@@ -5,7 +5,7 @@ body {
 
 .navbar {
   height: 109px;
-  background-color: #dbd645;
+  background-color: #dbd645 !important;
 }
 
 .logo {
@@ -14,11 +14,5 @@ body {
   margin-top: -5px;
   margin-left: 5px;
 } 
-
-#navbarText {
-  background-color: white;
-  margin-top: 10px;
-}
-
 
 
