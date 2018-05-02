@@ -45,3 +45,11 @@ html, body {
   border-radius: 50%;
   display: inline-block;
 }
+
+.firstPic {
+  margin-left: 98px;
+}
+
+.secondPic {
+  margin-left: 127px;
+}
