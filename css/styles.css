@@ -80,12 +80,12 @@ html, body {
 }
 
 .healthHeader {
-  margin-left: 35px;
+  margin-left: 25px;
 }
 
 .agriInfo {
-  margin-top: -180px;
-  margin-left: 445px;
+  margin-top: -182px;
+  margin-left: 450px;
   text-align: center;
 }
 
@@ -94,16 +94,46 @@ html, body {
 }
 
 .agriHeader {
-  margin-left: -40px;
+  margin-left: -60px;
   text-align: center;
 }
 
 .dataInfo {
-  margin-top: -185px;
-  margin-left: 850px;
+  margin-top: -142px;
+  margin-left: 890px;
   text-align: center;
 }
 
 .dataPara {
-  width: 900px;
+  width: 1000px;
+}
+
+.dataHeader {
+  margin-left: 5px;
+}
+
+.readMoreHealth {
+  background-color: #6b3074;
+  color: white;
+  margin-left: 37px;
+}
+
+.readMoreAgri {
+  background-color: #6b3074;
+  color: white;
+  margin-top: 10px;
+  margin-left: 467px;
+}
+
+.readMoreData {
+  background-color: #6b3074;
+  color: white; 
+  margin-top: -97px;
+  margin-left: 900px;
+}
+
+.talkingHome {
+  width: 800px;
+  position: relative;
+  left: 200px;
 }
