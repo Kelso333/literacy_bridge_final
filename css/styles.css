@@ -8,7 +8,6 @@ html, body {
   clear: both;
 }
 
-
 .navbar {
   height: 109px;
   position: relative;
@@ -23,12 +22,13 @@ html, body {
 } 
 
 #navbarNav {
-  margin-left: 650px;
+  margin-left: 550px;
+  padding: 35px;
 }
 
 .donate {
-  margin-top: 30px;
-  margin-left: 500px;
+  margin-top: 135px;
+  margin-left: 525px;
   background-color: #6b3074;
   color: white;
   position: fixed;
@@ -36,6 +36,7 @@ html, body {
 
 .slide {
   margin-top: 100px;
+  width: 1265px;
 }
 
 .carousel-indicators li {
@@ -53,3 +54,18 @@ html, body {
 .secondPic {
   margin-left: 127px;
 }
+
+.homeText {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.homeTextTwo {
+  text-align: center;
+}
+
+.homePictures {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
