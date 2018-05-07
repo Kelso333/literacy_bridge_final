@@ -75,12 +75,35 @@ html, body {
   text-align: center;
 }
 
+.healthPara {
+  width: 350px;
+}
+
 .healthHeader {
-  margin-left: 102px;
+  margin-left: 35px;
 }
 
 .agriInfo {
-  margin-top: -163px;
-  margin-left: 470px;
+  margin-top: -180px;
+  margin-left: 445px;
   text-align: center;
+}
+
+.agriPara {
+  width: 350px;
+}
+
+.agriHeader {
+  margin-left: -40px;
+  text-align: center;
+}
+
+.dataInfo {
+  margin-top: -185px;
+  margin-left: 850px;
+  text-align: center;
+}
+
+.dataPara {
+  width: 900px;
 }
