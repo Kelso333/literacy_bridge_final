@@ -69,3 +69,18 @@ html, body {
   margin-left: 70px;
 }
 
+.healthInfo {
+  margin-top: 30px;
+  margin-left: 32px;
+  text-align: center;
+}
+
+.healthHeader {
+  margin-left: 102px;
+}
+
+.agriInfo {
+  margin-top: -163px;
+  margin-left: 470px;
+  text-align: center;
+}
