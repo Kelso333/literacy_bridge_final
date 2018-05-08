@@ -71,43 +71,34 @@ html, body {
 
 .healthInfo {
   position: relative;
-  top: 95px;
-  left: 32px;
+  top: 122px;
+  left: 38px;
   text-align: center;
-}
-
-.healthPara {
-  width: 350px;
+  width: 1000px;
 }
 
 .healthHeader {
-  margin-left: 65px;
+  margin-left: 83px;
 }
 
 .agriInfo {
   position: relative;
-  top: -120px;
-  left: 420px;
+  top: -100px;
+  left: 450px;
   text-align: center;
-}
-
-.agriPara {
-  width: 350px;
+  width: 1000px;
 }
 
 .agriHeader {
-  margin-left: -33px;
+  margin-left: 5px;
   text-align: center;
 }
 
 .dataInfo {
   position: relative;
   top: -300px;
-  left: 820px;
+  left: 850px;
   text-align: center;
-}
-
-.dataPara {
   width: 1000px;
 }
 
@@ -118,21 +109,24 @@ html, body {
 .readMoreHealth {
   background-color: #6b3074;
   color: white;
-  margin-left: 37px;
+  position: relative;
+  top: 130px;
+  left: 115px;
 }
 
 .readMoreAgri {
   background-color: #6b3074;
   color: white;
-  margin-top: 10px;
-  margin-left: 467px;
+  position: relative;
+  top: -67px;
+  left: 533px;
 }
 
 .readMoreData {
   background-color: #6b3074;
   color: white; 
-  margin-top: -70px;
-  margin-left: 900px;
+  position: relative;
+  top: -403px;
 }
 
 .talkingBookHome {
