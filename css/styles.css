@@ -70,8 +70,9 @@ html, body {
 }
 
 .healthInfo {
-  margin-top: 30px;
-  margin-left: 32px;
+  position: relative;
+  top: 95px;
+  left: 32px;
   text-align: center;
 }
 
@@ -80,12 +81,13 @@ html, body {
 }
 
 .healthHeader {
-  margin-left: 25px;
+  margin-left: 65px;
 }
 
 .agriInfo {
-  margin-top: -182px;
-  margin-left: 450px;
+  position: relative;
+  top: -120px;
+  left: 420px;
   text-align: center;
 }
 
@@ -94,13 +96,14 @@ html, body {
 }
 
 .agriHeader {
-  margin-left: -60px;
+  margin-left: -33px;
   text-align: center;
 }
 
 .dataInfo {
-  margin-top: -142px;
-  margin-left: 890px;
+  position: relative;
+  top: -300px;
+  left: 820px;
   text-align: center;
 }
 
@@ -128,12 +131,13 @@ html, body {
 .readMoreData {
   background-color: #6b3074;
   color: white; 
-  margin-top: -97px;
+  margin-top: -70px;
   margin-left: 900px;
 }
 
-.talkingHome {
+.talkingBookHome {
   width: 800px;
   position: relative;
+  top: 50px;
   left: 200px;
 }
