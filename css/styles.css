@@ -28,14 +28,14 @@ html, body {
 
 .donate {
   margin-top: 135px;
-  margin-left: 525px;
+  margin-left: 520px;
   background-color: #6b3074;
   color: white;
   position: fixed;
 }
 
 .slide {
-  margin-top: 100px;
+  margin-top: 90px;
   width: 1265px;
 }
 
@@ -56,7 +56,7 @@ html, body {
 }
 
 .homeText {
-  margin-top: 110px;
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -71,7 +71,7 @@ html, body {
 
 .healthInfo {
   position: relative;
-  top: 122px;
+  top: 121px;
   left: 38px;
   text-align: center;
   width: 1000px;
@@ -84,20 +84,20 @@ html, body {
 .agriInfo {
   position: relative;
   top: -100px;
-  left: 450px;
+  left: 457px;
   text-align: center;
   width: 1000px;
 }
 
 .agriHeader {
-  margin-left: 5px;
+  margin-left: 3px;
   text-align: center;
 }
 
 .dataInfo {
   position: relative;
   top: -300px;
-  left: 850px;
+  left: 855px;
   text-align: center;
   width: 1000px;
 }
@@ -119,19 +119,26 @@ html, body {
   color: white;
   position: relative;
   top: -67px;
-  left: 533px;
+  left: 545px;
 }
 
 .readMoreData {
   background-color: #6b3074;
   color: white; 
   position: relative;
-  top: -403px;
+  top: -406px;
+  left: 943px;
 }
 
 .talkingBookHome {
   width: 800px;
   position: relative;
-  top: 50px;
-  left: 200px;
+  top: -100px;
+  left: 35px;
+}
+
+.healthAgriData {
+  position: relative;
+  top: -30px;
+  bottom: 20px;
 }
