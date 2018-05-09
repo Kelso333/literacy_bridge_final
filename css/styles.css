@@ -100,7 +100,6 @@ html, body {
   margin-left: 83px;
   text-align: center;
   color: #6b3074;
-
 }
 
 .agriInfo {
@@ -162,8 +161,8 @@ html, body {
 .talkingBookHome {
   width: 800px;
   position: relative;
-  top: -100px;
-  left: 45px;
+  top: -130px;
+  left: 44px;
 }
 
 .healthAgriData {
