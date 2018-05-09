@@ -43,23 +43,36 @@ html, body {
   width: 1265px;
 }
 
+.carousel-indicators {
+  margin-left: 140px;
+}
+
 .carousel-indicators li {
   height: 17px;
   width: 17px;
   background-color: #dbd645;
   border-radius: 50%;
   display: inline-block;
+  margin-right: 10px;
 }
 
 #firstText {
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .homeText {
-  margin-left: 195px;
+  margin-left: 181px;
   text-align: center;
   color: #6b3074;
-  width: 870px;
+  width: 875px;
+}
+
+.donateTwo {
+  background-color: #6b3074;
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 500px;
 }
 
 .firstPic {
