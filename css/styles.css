@@ -61,7 +61,7 @@ html, body {
 }
 
 .homeText {
-  margin-left: 175px;
+  margin-left: 173px;
   text-align: center;
   color: #6b3074;
   width: 875px;
@@ -143,7 +143,7 @@ html, body {
   color: white;
   position: relative;
   top: -67px;
-  left: 545px;
+  left: 544px;
 }
 
 .readMoreData {
@@ -152,6 +152,12 @@ html, body {
   position: relative;
   top: -406px;
   left: 957px;
+}
+
+.healthAgriData {
+  position: relative;
+  top: -30px;
+  bottom: 20px;
 }
 
 .healthPara, .agriPara, .dataPara {
@@ -165,8 +171,10 @@ html, body {
   left: 44px;
 }
 
-.healthAgriData {
-  position: relative;
-  top: -30px;
-  bottom: 20px;
+.donateThree {
+  color: white;
+  background-color: #6b3074; 
+  position: absolute;
+  top: 850px;
+  left: 530px;
 }
