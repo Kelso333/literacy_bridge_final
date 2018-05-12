@@ -156,7 +156,7 @@ html, body {
 
 .healthAgriData {
   position: relative;
-  top: -30px;
+  top: -50px;
   bottom: 20px;
 }
 
@@ -165,17 +165,38 @@ html, body {
 }
 
 .talkingBookHome {
-  width: 1000px;
-  height: 500px;
+  width: 787px;
+  height: 310px;
   position: relative;
-  top: -130px;
-  left: 44px;
+  top: -220px;
+  left: 220px;
 }
 
 .donateThree {
   color: white;
   background-color: #6b3074; 
   position: absolute;
-  top: 840px;
-  left: 530px;
+  top: 2260px;
+  left: 500px;
+}
+
+.community {
+  width: 945px;
+  height: 545px;
+  position: relative;
+  top: -35px;
+  left: 100px;
+}
+
+.partnerWithUs {
+  position: absolute;
+  top: 2850px;
+  left: 460px;
+  background-color: #6b3074;
+  color: white;
+}
+
+footer {
+  height: 50px;
+  background-color: #6b3074;
 }
