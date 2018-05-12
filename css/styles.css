@@ -201,3 +201,8 @@ footer {
   background-color: #6b3074;
   color: white;
 }
+
+.footer {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
