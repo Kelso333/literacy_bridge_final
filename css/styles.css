@@ -150,7 +150,7 @@ html, body {
   background-color: #6b3074;
   color: white; 
   position: relative;
-  top: -406px;
+  top: -263px;
   left: 957px;
 }
 
@@ -165,7 +165,8 @@ html, body {
 }
 
 .talkingBookHome {
-  width: 800px;
+  width: 1000px;
+  height: 500px;
   position: relative;
   top: -130px;
   left: 44px;
@@ -175,6 +176,6 @@ html, body {
   color: white;
   background-color: #6b3074; 
   position: absolute;
-  top: 850px;
+  top: 840px;
   left: 530px;
 }
