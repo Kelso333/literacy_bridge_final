@@ -206,3 +206,17 @@ footer {
   padding: 10px 0 10px 0;
   text-align: center;
 }
+
+
+/********** TALKING BOOK PAGE **********/
+
+.talkingBookHeader {
+  margin-top: 92px;
+  margin-left: 120px;
+}
+
+.tbText {
+  margin-top: 20px;
+  margin-left: 108px;
+  color: #6b3074;
+}
