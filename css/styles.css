@@ -184,7 +184,7 @@ html, body {
   width: 945px;
   height: 545px;
   position: relative;
-  top: -35px;
+  top: -45px;
   left: 100px;
 }
 
@@ -199,4 +199,5 @@ html, body {
 footer {
   height: 50px;
   background-color: #6b3074;
+  color: white;
 }
