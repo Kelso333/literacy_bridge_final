@@ -40,7 +40,6 @@ html, body {
 
 .slide {
   margin-top: 40px;
-  width: 1265px;
 }
 
 .carousel-indicators {
@@ -190,7 +189,7 @@ html, body {
 
 .partnerWithUs {
   position: absolute;
-  top: 2850px;
+  top: 2800px;
   left: 460px;
   background-color: #6b3074;
   color: white;
@@ -212,17 +211,30 @@ footer {
 
 .talkingBookHeader {
   margin-top: 55px;
-  margin-left: 120px;
+  margin-left: 130px;
 }
 
 .tbText {
   margin-top: 20px;
-  margin-left: 108px;
+  margin-left: 118px;
   color: #6b3074;
   text-align: center;
 }
 
 img.menTB {
-  margin-top: 40px;
-  margin-left: 120px;
+  position: relative;
+  top: 40px;
+  left: 130px;
+}
+
+.talkingBookFeatures {
+  position: absolute;
+  top: 820px;
+  left: 500px;
+  background-color: #6b3074;
+  color: #ffffff;
+}
+
+.talkingFooter {
+  margin-top: 80px;
 }
