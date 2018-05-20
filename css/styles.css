@@ -209,6 +209,14 @@ footer {
 
 /********** TALKING BOOK PAGE **********/
 
+.donateOneTalking {
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  background-color: #6b3074;
+  color: white;
+}
+
 .talkingBookHeader {
   margin-top: 55px;
   margin-left: 130px;
@@ -253,7 +261,7 @@ img.menTB {
   color: #6b3074;
 }
 
-.uniqueText, .augmentText, .increaseText {
+.uniqueText, .augmentText, .increaseText, .easyRecordText {
   margin-top: 8px;
   margin-left: 98px;
   color: #6b3074;
@@ -279,6 +287,17 @@ img.menTB {
   left: 500px;
 }
 
+.headerTalkingFour { 
+  color: #6b3074;
+  margin-top: 140px;
+  margin-left: 121px;
+}
+
+.headerTalkingFifth {
+  color: #6b3074;
+  margin-top: 20px;
+  margin-left: 121px;
+}
 
 
 
