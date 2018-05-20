@@ -299,7 +299,11 @@ img.menTB {
   margin-left: 121px;
 }
 
-
+.ladyTB {
+  position: relative;
+  top: 10px;
+  left: 195px;
+}
 
 
 
