@@ -271,7 +271,13 @@ img.menTB {
   margin-top: 20px;
 }
 
-
+.donateThreeTalking {
+  color: white;
+  background-color: #6b3074; 
+  position: absolute;
+  top: 1575px;
+  left: 500px;
+}
 
 
 
