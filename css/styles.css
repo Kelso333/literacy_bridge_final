@@ -239,12 +239,6 @@ img.menTB {
   margin-top: 95px;
 }
 
-.headerTalking {
-  margin-top: 180px;
-  margin-left: 125px;
-  color: #6b3074;
-}
-
 .donateTwoTalking {
   background-color: #6b3074;
   color: white;
@@ -253,11 +247,29 @@ img.menTB {
   left: 500px; 
 }
 
-.uniqueText {
-  margin-left: 98px;
+.headerTalking {
+  margin-top: 180px;
+  margin-left: 125px;
+  color: #6b3074;
 }
 
+.uniqueText, .augmentText, .increaseText {
+  margin-top: 8px;
+  margin-left: 98px;
+  color: #6b3074;
+}
 
+.headerTalkingTwo {
+  color: #6b3074;
+  margin-top: 20px;
+  margin-left: 121px;
+}
+
+.headerTalkingThree {
+  color: #6b3074;
+  margin-left: 121px;
+  margin-top: 20px;
+}
 
 
 
