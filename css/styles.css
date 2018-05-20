@@ -261,7 +261,7 @@ img.menTB {
   color: #6b3074;
 }
 
-.uniqueText, .augmentText, .increaseText, .easyRecordText {
+.uniqueText, .augmentText, .increaseText, .easyRecordText, .usageText {
   margin-top: 8px;
   margin-left: 98px;
   color: #6b3074;
@@ -298,7 +298,6 @@ img.menTB {
   margin-top: 20px;
   margin-left: 121px;
 }
-
 
 
 
