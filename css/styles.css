@@ -30,7 +30,7 @@ html, body {
   padding: 35px;
 }
 
-.donateOne, .donateOneTalking {
+.donateOne, .donateOneTalking, .donateOnePartner {
   position: absolute;
   top: 25px;
   left: 500px;
@@ -310,9 +310,6 @@ img.menTB {
   margin-top: 20px;
   margin-left: 121px;
 }
-
-
-
 
 
 /********** OUR PARTNERS PAGE **********/
