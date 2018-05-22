@@ -316,6 +316,16 @@ img.menTB {
 
 .partnerHeader {
   color: #6b3074;
+  font-weight: bolder;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+
+.unicefLogo {
+  margin-top: 177px;
+  margin-left: -110px;
+}
+
+.armLogo {
   margin-top: 100px;
-  margin-left: 107px;
 }
