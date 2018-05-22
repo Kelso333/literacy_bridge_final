@@ -410,3 +410,14 @@ img.menTB {
 .unicefFooter {
   margin-top: 50px;
 }
+
+/********** ARM PAGE **********/
+
+.armAboutLogo {
+  margin-top: 160px;
+  margin-left: 45px;
+}
+
+.armText {
+  margin-top: 50px;
+}
