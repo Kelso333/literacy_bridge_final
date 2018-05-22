@@ -70,7 +70,7 @@ html, body {
   background-color: #6b3074;
   color: white;
   position: absolute;
-  top: 847px;
+  top: 865px;
   left: 500px;  
 }
 
@@ -189,7 +189,7 @@ html, body {
 
 .partnerWithUs {
   position: absolute;
-  top: 2800px;
+  top: 2843px;
   left: 460px;
   background-color: #6b3074;
   color: white;
@@ -314,3 +314,8 @@ img.menTB {
 
 /********** OUR PARTNERS PAGE **********/
 
+.partnerHeader {
+  color: #6b3074;
+  margin-top: 100px;
+  margin-left: 107px;
+}
