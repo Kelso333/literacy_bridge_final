@@ -342,3 +342,16 @@ img.menTB {
 .partnerFooter {
   margin-top: 500px;
 }
+
+/********** UNICEF PAGE **********/
+
+.unicefHeader {
+  color: #6b3074;
+  font-weight: bold;
+  margin-top: 78px;
+  margin-left: 201px;
+}
+
+.unicefAbout {
+  margin-top: 170px;
+}
