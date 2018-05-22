@@ -415,9 +415,19 @@ img.menTB {
 
 .armAboutLogo {
   margin-top: 160px;
-  margin-left: 45px;
+  margin-left: 40px;
 }
 
 .armText {
   margin-top: 50px;
+  margin-left: 190px;
+  text-align: center;
+  color: #6b3074;
+}
+
+.armTextTwo {
+  margin-top: 45px;
+  margin-left: 190px;
+  text-align: center;
+  color: #6b3074;
 }
