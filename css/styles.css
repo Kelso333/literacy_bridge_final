@@ -352,6 +352,21 @@ img.menTB {
   margin-left: 201px;
 }
 
-.unicefAbout {
-  margin-top: 170px;
+.unicefAboutLogo {
+  margin-top: 160px;
+  margin-left: 40px;
+}
+
+.unicefText {
+  color: #6b3074;
+  margin-top: 33px;
+  margin-left: 133px;
+  text-align: center;
+}
+
+.unicefTextTwo {
+  color: #6b3074;
+  margin-top: 42px;
+  margin-left: 337px;
+  text-align: center;
 }
