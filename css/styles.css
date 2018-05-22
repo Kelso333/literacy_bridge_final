@@ -30,7 +30,7 @@ html, body {
   padding: 35px;
 }
 
-.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef {
+.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm {
   position: absolute;
   top: 25px;
   left: 500px;
@@ -420,14 +420,47 @@ img.menTB {
 
 .armText {
   margin-top: 50px;
-  margin-left: 190px;
+  margin-left: 200px;
   text-align: center;
   color: #6b3074;
 }
 
 .armTextTwo {
   margin-top: 45px;
-  margin-left: 190px;
+  margin-left: 200px;
   text-align: center;
   color: #6b3074;
+}
+
+.donateTwoArm {
+  position: absolute;
+  top: 640px;
+  left: 500px;
+  color: white;
+  background-color: #6b3074;
+}
+
+.armTextThree {
+  margin-top: 90px;
+  margin-left: 97px;
+  text-align: center;
+  color: #6b3074;
+}
+
+.armAboutHeader {
+  margin-top: 45px;
+  margin-left: 510px;
+  font-weight: bold;
+  color: #6b3074;
+}
+
+.armTextFour {
+  margin-top: 23px;
+  margin-left: 97px;
+  text-align: center;
+  color: #6b3074;
+}
+
+.armFooter {
+  margin-top: 50px;
 }
