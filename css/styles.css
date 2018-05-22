@@ -30,7 +30,7 @@ html, body {
   padding: 35px;
 }
 
-.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm {
+.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm, .donateOneCare {
   position: absolute;
   top: 25px;
   left: 500px;
@@ -426,7 +426,7 @@ img.menTB {
 }
 
 .armTextTwo {
-  margin-top: 45px;
+  margin-top: 40px;
   margin-left: 200px;
   text-align: center;
   color: #6b3074;
@@ -463,4 +463,20 @@ img.menTB {
 
 .armFooter {
   margin-top: 50px;
+}
+
+
+
+/********** CARE PAGE **********/
+
+.careAboutLogo {
+  margin-top: 170px;
+  margin-left: 40px;  
+}
+
+.careText {
+  color: #6b3074;
+  margin-top: 57px;
+  margin-left: 97px;
+  text-align: center;
 }
