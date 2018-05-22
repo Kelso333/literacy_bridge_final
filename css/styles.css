@@ -30,7 +30,7 @@ html, body {
   padding: 35px;
 }
 
-.donateOne, .donateOneTalking, .donateOnePartner {
+.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef {
   position: absolute;
   top: 25px;
   left: 500px;
@@ -354,7 +354,7 @@ img.menTB {
 
 .unicefAboutLogo {
   margin-top: 160px;
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 .unicefText {
@@ -364,9 +364,49 @@ img.menTB {
   text-align: center;
 }
 
-.unicefTextTwo {
+.objectives {
+  font-weight: bold;
   color: #6b3074;
-  margin-top: 42px;
+  margin-top: 37px;
   margin-left: 337px;
   text-align: center;
+}
+.unicefObjectives {
+  color: #6b3074;
+  margin-top: 20px;
+  margin-left: 343px;
+  text-align: center;
+}
+
+.donateTwoUnicef {
+  position: absolute;
+  top: 970px;
+  left: 500px;
+  color: white;
+  background-color: #6b3074;
+}
+
+.unicefTextTwo {
+  color: #6b3074;
+  margin-top: 123px;
+  margin-left: 197px;
+  text-align: center;
+}
+
+.aboutUnicefHeader {
+  font-weight: bold;
+  color: #6b3074;
+  margin-top: 55px;
+  margin-left: 480px;
+}
+
+.unicefTextThree {
+  color: #6b3074;
+  margin-top: 23px;
+  margin-left: 197px;
+  text-align: center;
+}
+
+.unicefFooter {
+  margin-top: 50px;
 }
