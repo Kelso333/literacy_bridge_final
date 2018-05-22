@@ -236,7 +236,7 @@ img.menTB {
   color: #ffffff;
 }
 
-.talkingFooter {
+.talkingFooter, .featureFooter {
   margin-top: 95px;
 }
 
@@ -317,15 +317,28 @@ img.menTB {
 .partnerHeader {
   color: #6b3074;
   font-weight: bolder;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-left: 90px;
 }
 
 .unicefLogo {
-  margin-top: 177px;
-  margin-left: -110px;
+  position: absolute;
+  top: 250px;
+  left: 395px;
 }
 
 .armLogo {
-  margin-top: 100px;
+  position: absolute;
+  top: 430px;
+  left: 30px;
+}
+
+.careLogo {
+  position: absolute;
+  top: 425px;
+  left: 760px;
+}
+
+.partnerFooter {
+  margin-top: 500px;
 }
