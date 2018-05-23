@@ -460,7 +460,6 @@ img.menTB {
 }
 
 
-
 /********** CARE PAGE **********/
 
 .careAboutLogo {
@@ -477,4 +476,20 @@ img.menTB {
 
 .careFooter {
  margin-top: 107px; 
+}
+
+/********** CONTACT PAGE **********/
+
+.contactHeader {
+  margin-top: 89px;
+  margin-left: 142px;
+  color: #6b3074;
+  font-weight: bold;
+}
+
+.contactText {
+  margin-top: 200px;
+  margin-left: -175px;
+  text-align: center;
+  color: #6b3074;
 }
