@@ -515,5 +515,15 @@ img.menTB {
 }
 
 .contactForm {
-  
+  margin-top: 170px;
+  margin-left: -445px;
+}
+
+input {
+  width: 300px;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
 }
