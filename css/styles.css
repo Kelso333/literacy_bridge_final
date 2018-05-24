@@ -27,7 +27,7 @@ html, body {
 
 #navbarNav {
   position: absolute;
-  left: 789px;
+  left: 780px;
   padding: 35px;
 }
 
@@ -489,7 +489,27 @@ img.menTB {
 
 .contactText {
   margin-top: 200px;
-  margin-left: -175px;
+  margin-left: -165px;
   text-align: center;
   color: #6b3074;
+}
+
+.contactEmail {
+  margin-top: 30px;
+  margin-left: 417px;
+  color: #6b3074;
+}
+
+.contactAddress {
+  margin-top: 120px;
+  text-align: center;
+  margin-left: -300px;
+  color: #6b3074;
+}
+
+.contactTextTwo {
+  color: #6b3074;
+  margin-top: 30px;
+  margin-left: 297px;
+  text-align: center;
 }
