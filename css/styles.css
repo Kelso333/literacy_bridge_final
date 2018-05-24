@@ -516,7 +516,7 @@ img.menTB {
 
 .contactForm {
   margin-top: 170px;
-  margin-left: -445px;
+  margin-left: -515px;
 }
 
 input {
@@ -526,4 +526,15 @@ input {
 label {
   display: inline-block;
   width: 90px;
+}
+
+.donateSubmit {
+  position: absolute;
+  top: 1150px;
+  color: white;
+  background-color: #6b3074;
+}
+
+.contactFooter {
+  margin-top: 170px;
 }
