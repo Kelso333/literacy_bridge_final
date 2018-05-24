@@ -524,13 +524,16 @@ input {
 }
 
 label {
+  font-weight: bold;
+  color: #6b3074;
   display: inline-block;
   width: 90px;
 }
 
 .donateSubmit {
   position: absolute;
-  top: 1150px;
+  top: 1160px;
+  left: 500px;
   color: white;
   background-color: #6b3074;
 }
