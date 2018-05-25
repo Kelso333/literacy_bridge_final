@@ -545,3 +545,21 @@ label {
 
 /********** DONATE PAGE **********/
 
+.donateHeader {
+  margin-top: 59px;
+  margin-left: 116px;
+  font-weight: bold;
+  color: #6b3074;
+}
+
+.donateText {
+  margin-top: 170px;
+  margin-left: -212px;
+  text-align: center;
+}
+
+.donateTextTwo {
+  margin-top: 40px;
+  margin-left: 212px;
+  text-align: center;
+}
