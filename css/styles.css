@@ -1,3 +1,23 @@
+.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm, .donateOneCare {
+  margin-top: 30px;
+  left: 800px;
+  background-color: #6b3074;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
