@@ -1,608 +1,215 @@
-body {
-background-color: #99ffff;
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
 }
 
 .navbar {
-  height: 90px;
-  position: relative;
-  left: -15px;
-  width: 1265px;
-  background-color: #ffff99 !important;
+  padding: .8rem
 }
 
-.logo {
-  width: 105px;
-  height: 61px;
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
   position: absolute;
-  top: 13px;
-  left: 43px;
-} 
-
-#navbarNav {
-  position: absolute;
-  left: 780px;
-  padding: 35px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm, .donateOneCare {
-  position: absolute;
-  top: 25px;
-  left: 500px;
-  background-color: #6b3074;
-  color: white;
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
 }
 
-.carousel-indicators {
-  margin-left: 140px;
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+ 
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
 }
 
-.carousel-indicators li {
-  height: 17px;
-  width: 17px;
-  background-color: #ffff33;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 10px;
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
 }
 
-#firstText {
-  margin-top: 35px;
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
 }
 
-.homeText {
-  margin-left: 173px;
-  text-align: center;
-  color: #6b3074;
-  width: 875px;
+.padding {
+  padding-bottom: 2rem;
 }
 
-.donateTwo {
-  background-color: #6b3074;
-  color: white;
-  position: absolute;
-  top: 1030px;
-  left: 500px;  
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
-.firstPic {
-  margin-left: 98px;
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
 }
 
-.secondPic {
-  margin-left: 127px;
+.fa-code {
+ color: #e54d26; 
 }
 
-.homePictures {
-  margin-top: 100px;
-  margin-left: 50px;
+.fa-bold {
+  color: #563d7c; 
 }
 
-.healthInfo {
-  position: relative;
-  top: 119px;
-  left: 38px;
-  text-align: center;
-  width: 1000px;
+.fa-code {
+  color: #563d7c;
 }
 
-.healthHeader {
-  margin-left: 83px;
-  text-align: center;
-  color: #6b3074;
+.fa-code, .fa-bold {
+  font-size: 4em;
+  margin: 1rem;
 }
 
-.agriInfo {
-  position: relative;
-  top: -100px;
-  left: 463px;
-  text-align: center;
-  width: 1000px;
+
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
-.agriHeader {
-  margin-left: 3px;
-  text-align: center;
-  color: #6b3074;
+.gif {
+  max-width: 100%;
 }
 
-.dataInfo {
-  position: relative;
-  top: -299px;
-  left: 870px;
-  text-align: center;
-  width: 1000px;
-}
-
-.dataHeader {
-  margin-left: 5px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.readMoreHealth {
-  background-color: #6b3074;
-  color: white;
-  position: relative;
-  top: 130px;
-  left: 115px;
-}
-
-.readMoreAgri {
-  background-color: #6b3074;
-  color: white;
-  position: relative;
-  top: -67px;
-  left: 544px;
-}
-
-.readMoreData {
-  background-color: #6b3074;
-  color: white; 
-  position: relative;
-  top: -263px;
-  left: 957px;
-}
-
-.healthAgriData {
-  position: relative;
-  top: -50px;
-  bottom: 20px;
-}
-
-.healthPara, .agriPara, .dataPara {
- color: #6b3074;
-}
-
-.talkingBookHome {
-  position: relative;
-  top: -220px;
-  left: 220px;
-}
-
-.donateThree {
-  color: white;
-  background-color: #6b3074; 
-  position: absolute;
-  top: 2220px;
-  left: 500px;
-}
-
-.community {
-  height: 545px;
-  position: relative;
-  top: -70px;
-  left: 150px;
-}
-
-.partnerWithUs {
-  position: absolute;
-  top: 2790px;
-  left: 460px;
-  background-color: #6b3074;
-  color: white;
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
 }
 
 footer {
-  height: 50px;
-  background-color: #6b3074;
-  color: white;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
 }
 
-.footer {
-  padding: 10px 0 10px 0;
-  text-align: center;
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
 }
 
-
-/********** TALKING BOOK PAGE **********/
-
-.talkingBookHeader {
-  color: #6b3074;
-  margin-top: 55px;
-  margin-left: 130px;
+footer a {
+  color: #d5d5d5;
 }
 
-.tbText {
-  margin-top: 20px;
-  margin-left: 118px;
-  color: #6b3074;
-  text-align: center;
-}
-
-img.menTB {
-  position: relative;
-  top: 30px;
-  left: 130px;
-}
-
-.talkingBookFeatures {
-  position: absolute;
-  top: 810px;
-  left: 500px;
-  background-color: #6b3074;
-  color: #ffffff;
-}
-
-.talkingFooter, .featureFooter {
-  margin-top: 95px;
-}
-
-/********** FEATURES PAGE **********/
-
-.headerMainFeatures {
-  margin-top: 60px;
-  margin-left: 165px;
-  color: #6b3074;
-  font-weight: bold;
-}
-
-.headerFeatureOne {
-  margin-top: 150px;
-  margin-left: -245px;
-  color: #6b3074;
-}
-
-.uniqueText, .augmentText, .increaseText, .easyRecordText, .usageText, .accessText, .runsText, .worksText {
-  margin-top: 8px;
-  margin-left: 98px;
-  color: #6b3074;
-}
-
-.headerFeatureTwo {
-  color: #6b3074;
-  margin-top: 20px;
-  margin-left: 121px;
-}
-
-.headerFeatureThree {
-  color: #6b3074;
-  margin-left: 121px;
-  margin-top: 20px;
-}
-
-.donateTwoFeature {
-  color: white;
-  background-color: #6b3074; 
-  position: absolute;
-  top: 680px;
-  left: 500px;
-}
-
-.headerFeatureFour { 
-  color: #6b3074;
-  margin-top: 140px;
-  margin-left: 121px;
-}
-
-.headerFeatureFive {
-  color: #6b3074;
-  margin-top: 20px;
-  margin-left: 121px;
-}
-
-.ladyTB {
-  position: relative;
-  top: 20px;
-  left: 195px;
-}
-
-.kidsMarketing {
-  position: relative;
-  top: 20px;
-  left: 307px;
-}
-
-.headerFeatureSix, .headerFeatureSeven, .headerFeatureEight {
-  color: #6b3074;
-  margin-top: 20px;
-  margin-left: 121px;
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
 }
 
 
-/********** OUR PARTNERS PAGE **********/
 
-.partnerHeader {
-  color: #6b3074;
-  font-weight: bolder;
-  margin-top: 80px;
-  margin-left: 90px;
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+
+
+  
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+
 }
 
-.unicefLogo {
-  position: absolute;
-  top: 250px;
-  left: 395px;
-}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 250%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
 
-.armLogo {
-  position: absolute;
-  top: 430px;
-  left: 30px;
-}
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
 
-.careLogo {
-  position: absolute;
-  top: 425px;
-  left: 760px;
-}
+  .carousel-indicators {
+    display: none;
+  }
 
-.partnerFooter {
-  margin-top: 500px;
-}
+  .display-4 {
+    font-size: 160%;
+  }
 
-/********** UNICEF PAGE **********/
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
 
-.unicefHeader {
-  color: #6b3074;
-  font-weight: bold;
-  margin-top: 78px;
-  margin-left: 201px;
-}
-
-.unicefAboutLogo {
-  margin-top: 160px;
-  margin-left: 45px;
-}
-
-.unicefText {
-  color: #6b3074;
-  margin-top: 33px;
-  margin-left: 133px;
-  text-align: center;
-}
-
-.objectives {
-  font-weight: bold;
-  color: #6b3074;
-  margin-top: 37px;
-  margin-left: 337px;
-  text-align: center;
-}
-.unicefObjectives {
-  color: #6b3074;
-  margin-top: 20px;
-  margin-left: 343px;
-  text-align: center;
-}
-
-.donateTwoUnicef {
-  position: absolute;
-  top: 970px;
-  left: 500px;
-  color: white;
-  background-color: #6b3074;
-}
-
-.unicefTextTwo {
-  color: #6b3074;
-  margin-top: 123px;
-  margin-left: 197px;
-  text-align: center;
-}
-
-.aboutUnicefHeader {
-  font-weight: bold;
-  color: #6b3074;
-  margin-top: 55px;
-  margin-left: 480px;
-}
-
-.unicefTextThree {
-  color: #6b3074;
-  margin-top: 23px;
-  margin-left: 197px;
-  text-align: center;
-}
-
-.unicefFooter {
-  margin-top: 50px;
-}
-
-/********** ARM PAGE **********/
-
-.armAboutLogo {
-  margin-top: 160px;
-  margin-left: 40px;
-}
-
-.armText {
-  margin-top: 50px;
-  margin-left: 200px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.armTextTwo {
-  margin-top: 40px;
-  margin-left: 200px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.donateTwoArm {
-  position: absolute;
-  top: 640px;
-  left: 500px;
-  color: white;
-  background-color: #6b3074;
-}
-
-.armTextThree {
-  margin-top: 90px;
-  margin-left: 97px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.armAboutHeader {
-  margin-top: 45px;
-  margin-left: 510px;
-  font-weight: bold;
-  color: #6b3074;
-}
-
-.armTextFour {
-  margin-top: 23px;
-  margin-left: 97px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.armFooter {
-  margin-top: 50px;
-}
-
-
-/********** CARE PAGE **********/
-
-.careAboutLogo {
-  margin-top: 170px;
-  margin-left: 30px;  
-}
-
-.careText {
-  color: #6b3074;
-  margin-top: 57px;
-  margin-left: 185px;
-  text-align: center;
-}
-
-.careFooter {
- margin-top: 107px; 
-}
-
-/********** CONTACT PAGE **********/
-
-.contactHeader {
-  margin-top: 89px;
-  margin-left: 142px;
-  color: #6b3074;
-  font-weight: bold;
-}
-
-.contactText {
-  margin-top: 200px;
-  margin-left: -165px;
-  text-align: center;
-  color: #6b3074;
-}
-
-.contactEmail {
-  margin-top: 30px;
-  margin-left: 417px;
-  color: #6b3074;
-}
-
-.contactAddress {
-  margin-top: 120px;
-  text-align: center;
-  margin-left: -300px;
-  color: #6b3074;
-}
-
-.contactTextTwo {
-  color: #6b3074;
-  margin-top: 30px;
-  margin-left: 297px;
-  text-align: center;
-}
-
-.contactForm {
-  position: relative;
-  top: 30px;
-  left: 385px;
-}
-
-input {
-  width: 300px;
-}
-
-label {
-  font-weight: bold;
-  color: #6b3074;
-  display: inline-block;
-  width: 90px;
-}
-
-.contactSubmit {
-  position: absolute;
-  top: 1067px;
-  left: 526px;
-  color: white;
-  background-color: #6b3074;
-}
-
-.contactFooter {
-  margin-top: 170px;
-}
-
-/********** DONATE PAGE **********/
-
-.donateHeader {
-  margin-top: 59px;
-  margin-left: 116px;
-  font-weight: bold;
-  color: #6b3074;
-}
-
-.donateText {
-  color: #6b3074;
-  margin-top: 150px;
-  margin-left: -212px;
-  text-align: center;
-}
-
-.donateTextTwo {
-  color: #6b3074;
-  margin-top: 30px;
-  margin-left: 212px;
-  text-align: center;
-}
-
-.donateSubmit {
-  position: absolute;
-  top: 660px;
-  left: 510px;
-  color: white;
-  background-color: #6b3074;
-}
-
-/********** PRESS PAGE **********/
-
-.ghanaHeader {
-  margin-top: 80px;
-  margin-left: 55px;
-  color: #6b3074;
-}
-
-.ghanaArticle {
-  color: #6b3074;
-  margin-top: 30px;
-  margin-left: 80px;
-}
-
-.articleOneImage {
-  width: 700px;
-  height: 500px;
-  position: relative;
-  left: 200px;
-  margin-top: 30px;
-}
-
-.soapOperaHeader {
-  color: #6b3074;
-  margin-top: 40px;
-  margin-left: 55px;
-}
-
-.operaSubHeader {
-  color: #6b3074;
-  margin-left: 55px;
 }
