@@ -178,7 +178,7 @@ html, body {
   height: 545px;
   position: relative;
   top: -70px;
-  left: 100px;
+  left: 150px;
 }
 
 .partnerWithUs {
@@ -579,12 +579,30 @@ label {
 .ghanaHeader {
   margin-top: 80px;
   margin-left: 55px;
+  color: #6b3074;
 }
-
 
 .ghanaArticle {
   color: #6b3074;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 80px;
 }
 
+.articleOneImage {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  left: 200px;
+  margin-top: 30px;
+}
+
+.soapOperaHeader {
+  color: #6b3074;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.operaSubHeader {
+  color: #6b3074;
+  margin-left: 55px;
+}
