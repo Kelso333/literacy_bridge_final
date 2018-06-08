@@ -5,18 +5,14 @@
   color: white;
 }
 
+.logo {
+  width: 50%;
+  height: 50%; 
+} 
 
 
 
-
-
-
-
-
-
-
-
-
+/*-----------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
@@ -152,17 +148,18 @@ hr.light-100 {
 }
 
 
-/*--- Media Queries --*/
-@media (max-width: 992px) {
 
+/*---Media Queries --*/
+@media (max-width: 992px) {
   .social a {
     font-size: 4em;
     padding: 2rem;
   }
 
 
-@media (max-width: 768px) {
 
+  
+@media (max-width: 768px) {
   .carousel-caption {
     top: 45%;
   }
@@ -196,7 +193,6 @@ hr.light-100 {
 }
 
 @media (max-width: 576px) {
-
   .carousel-caption {
     top: 40%;
   }
@@ -230,7 +226,6 @@ hr.light-100 {
     font-size: 2em;
     padding: .7rem;
   }
-
 }
 
 }
