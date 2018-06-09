@@ -16,6 +16,20 @@ a {
   font-weight: bold;
 }
 
+.jumbotron {
+  background-color: #6b3074;
+}
+
+.videoText {
+  color: white;
+  text-align: center;
+  margin-left: 10.5rem;
+}
+
+iframe {
+  margin-left: 19.0rem;
+}
+
 
 /*-----------------*/
 
@@ -26,6 +40,7 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  background-color: #99ffff;
 }
 
 .navbar {
