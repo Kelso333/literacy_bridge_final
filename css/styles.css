@@ -20,6 +20,19 @@ a {
   background-color: #6b3074;
 }
 
+.jumboHeaderOne {
+  color: #ffff99 !important;
+  margin-top: 1.3rem;
+}
+
+.jumboHeaderTwo {
+  color: #ffff99 !important;
+}
+
+.nadowli {
+  margin-top: 1.7rem;
+}
+
 .videoText {
   color: white;
   text-align: center;
@@ -27,6 +40,7 @@ a {
 }
 
 iframe {
+  margin-top: .7rem;
   margin-left: 19.0rem;
 }
 
