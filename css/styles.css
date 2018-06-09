@@ -13,6 +13,13 @@
   color: white;
 }
 
+.donateThree {
+  margin-bottom: .4rem;
+  margin-left: 30.9rem;
+  background-color: #6b3074;
+  color: white;
+}
+
 .logo {
   width: 27%;
   height: 27%; 
@@ -53,6 +60,16 @@ iframe {
 
 .card {
   background-color: #ffff99;
+}
+
+.talkingBookPic {
+  margin-top: .7rem;
+  margin-bottom: 1.2rem;
+}
+
+.community {
+  width: 80%;
+  margin-left: 7.0rem;
 }
 
 /*-----------------*/
