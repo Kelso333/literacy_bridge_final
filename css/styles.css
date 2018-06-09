@@ -1,15 +1,20 @@
 .donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm, .donateOneCare {
-  margin-top: 30px;
-  left: 800px;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  margin-left: 30.9rem;
   background-color: #6b3074;
   color: white;
 }
 
 .logo {
-  width: 50%;
-  height: 50%; 
-} 
+  width: 27%;
+  height: 27%; 
+}
 
+a {
+  color: #6b3074; 
+  font-weight: bold;
+}
 
 
 /*-----------------*/
@@ -24,11 +29,12 @@ html, body {
 }
 
 .navbar {
-  padding: .8rem
+  background-color: #ffff99 !important;
+  padding: .8rem;
 }
 
 .navbar-nav li {
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .nav-link {
