@@ -32,6 +32,8 @@ a {
 
 .jumbotron {
   background-color: #6b3074;
+  padding: 1rem;
+  border-radius: 0;
 }
 
 .jumboHeaderOne {
@@ -73,8 +75,23 @@ iframe {
 }
 
 footer {
+  background-color: #6b3074 !important;
   margin-bottom: -2.0rem;
+  padding-top: 2rem;
 }
+
+footer p, .footerText {
+  color: white;
+}
+
+.display-5 {
+  color: #6b3074;
+}
+
+.connectText{
+  color: #6b3074;
+}
+
 
 /*-----------------*/
 
@@ -126,18 +143,13 @@ html, body {
 }
  
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #6b3074;
+  border: 1px solid #6b3074;
 }
 
 .btn-primary:hover {
   background-color: #563d7c;
   border: 1px solid #563d7c;
-}
-
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
 }
 
 .padding {
@@ -150,49 +162,22 @@ html, body {
   padding-top: 2rem;
 }
 
-.welcome hr {
+/* .welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
-}
-
-.fa-code {
- color: #e54d26; 
-}
-
-.fa-bold {
-  color: #563d7c; 
-}
-
-.fa-code {
-  color: #563d7c;
-}
-
-.fa-code, .fa-bold {
-  font-size: 4em;
-  margin: 1rem;
-}
-
+} */
 
 .fun {
   width: 100%;
   margin-bottom: 2rem;
 }
 
-.gif {
-  max-width: 100%;
-}
-
 .social a {
-  font-size: 4.5em;
+  font-size: 3.5em;
   padding: 3rem;
-}
-
-footer {
-  background-color: #3f3f3f;
-  color: #d5d5d5;
-  padding-top: 2rem;
+  background-color: 
 }
 
 hr.light {
@@ -221,8 +206,6 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem;
   }
-
-
 
   
 @media (max-width: 768px) {
