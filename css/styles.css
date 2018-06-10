@@ -8,7 +8,7 @@
 
 .donateTwo {
   margin-bottom: 4.0rem;
-  margin-left: 30.9rem;
+  margin-left: 31.9rem;
   background-color: #6b3074;
   color: white;
 }
@@ -18,6 +18,17 @@
   margin-left: 30.9rem;
   background-color: #6b3074;
   color: white;
+}
+
+.partnerButton {
+  /* margin-bottom: .4rem; */
+  margin-left: 27.9rem; 
+  background-color: #6b3074;
+  color: white;
+}
+
+.partnership {
+  margin-left: 18.0rem;
 }
 
 .logo {
