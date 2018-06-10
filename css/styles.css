@@ -1,3 +1,6 @@
+
+/***** HOME PAGE *****/
+
 .donateOne, .donateOneTalking, .donateOnePartner, .donateOneUnicef, .donateOneArm, .donateOneCare {
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
@@ -99,14 +102,26 @@ footer p, .footerText {
   color: #6b3074;
 }
 
-.connectText {
+.connectedText {
   color: #6b3074;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .fab {
-  background-color: #ffff99;
+  background-color: #6b3074;
 }
+
+.becomePartner {
+  color: #6b3074;
+}
+
+.partnerButton {
+  margin-bottom: 1.3rem;
+}
+
+
+/***** TALKING BOOK PAGE *****/
+
 
 
 /*-----------------*/
