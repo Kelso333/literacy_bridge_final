@@ -72,6 +72,10 @@ iframe {
   margin-left: 7.0rem;
 }
 
+footer {
+  margin-bottom: -2.0rem;
+}
+
 /*-----------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
