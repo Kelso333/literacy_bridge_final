@@ -88,8 +88,13 @@ footer p, .footerText {
   color: #6b3074;
 }
 
-.connectText{
+.connectText {
   color: #6b3074;
+  margin-bottom: 2.5rem;
+}
+
+.fab {
+  background-color: #ffff99;
 }
 
 
@@ -123,25 +128,6 @@ html, body {
   height: 100%;
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-caption h1 {
-  font-size: 500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
-}
-
-.carousel-caption h3 {
-  font-size: 200%;
-  font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
-  padding-bottom: 1rem;
-}
- 
 .btn-primary {
   background-color: #6b3074;
   border: 1px solid #6b3074;
@@ -169,10 +155,6 @@ html, body {
   margin-bottom: 1rem;
 } */
 
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-}
 
 .social a {
   font-size: 3.5em;
@@ -187,9 +169,6 @@ hr.light {
   margin-bottom: 1rem;
 }
 
-footer a {
-  color: #d5d5d5;
-}
 
 hr.light-100 {
   border-top: 1px solid #d5d5d5;
@@ -237,6 +216,7 @@ hr.light-100 {
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
+    color: #ffff99;
   }
 
 }
