@@ -122,13 +122,17 @@ footer p, .footerText {
 
 /***** TALKING BOOK PAGE *****/
 
+.tBookText {
+  margin-top: 1.5rem;
+}
+
 #jumboBook {
   background-color: #6b3074;
 }
 
 .menTB {
-  width: 100%;
-  height: 80%;
+  width: 80%;
+  height: 70%;
 }
 
 .girlTB {
@@ -138,10 +142,18 @@ footer p, .footerText {
 }
 
 .tBookFooter {
-  margin-top: -8.5rem;
+  margin-top: -10.5rem;
 }
 
-/*-----------------*/
+.talkingBookFeatures {
+  width: 25%;
+  height: 8%;
+  margin-left: 30rem;
+  background-color: #6b3074;
+  color: #ffffff;
+}
+
+/*----------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
