@@ -9,6 +9,13 @@
   color: white;
 }
 
+.donateOneBook {
+  margin-top: 2.0rem;
+  margin-left: 32.7rem;
+  background-color: #6b3074;
+  color: white;
+}
+
 .donateTwo {
   margin-bottom: 4.0rem;
   margin-left: 32.7rem;
@@ -24,7 +31,6 @@
 }
 
 .partnerButton {
-  /* margin-bottom: .4rem; */
   margin-left: 27.9rem; 
   background-color: #6b3074;
   color: white;
@@ -120,14 +126,21 @@ footer p, .footerText {
 }
 
 
-/***** TALKING BOOK PAGE *****/
+/********************** TALKING BOOK PAGE *********************/
 
-.tBookText {
-  margin-top: 1.5rem;
+.tBookHeader {
+  color: white;
+  margin-left: 12rem;
 }
 
 #jumboBook {
-  background-color: #6b3074;
+  margin-top: 2rem;
+  margin-bottom: -.1rem;
+}
+
+.tBookText {
+  margin-top: 1.5rem;
+  color: white;
 }
 
 .menTB {
@@ -138,7 +151,7 @@ footer p, .footerText {
 .girlTB {
   margin-top: 1.7rem;
   margin-bottom: 1.7rem;
-  margin-left: 5.0rem;
+  margin-left: 5.5rem;
 }
 
 .tBookFooter {
@@ -148,11 +161,15 @@ footer p, .footerText {
 .talkingBookFeatures {
   width: 25%;
   height: 8%;
+  margin-top: 1rem;
   margin-left: 30rem;
   background-color: #6b3074;
   color: #ffffff;
 }
 
+.hrBook {
+  margin-left: 7rem;
+}
 /*----------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
@@ -234,7 +251,7 @@ hr.light-100 {
 
 
 
-/*---Media Queries --*/
+/*----------------- MEDIA QUERIES  -------------------------*/
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
