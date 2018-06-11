@@ -10,7 +10,7 @@
 }
 
 .donateOneBook {
-  margin-top: 2.0rem;
+  margin-top: 1.3rem;
   margin-left: 32.7rem;
   background-color: #6b3074;
   color: white;
@@ -288,7 +288,7 @@ hr.light-100 {
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
-    color: #ffff99;
+    color: #6b3074;
   }
 
 }
