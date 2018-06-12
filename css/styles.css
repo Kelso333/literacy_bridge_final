@@ -319,11 +319,11 @@ html, body {
 }
 
 .navbar-nav li {
-  padding: 15px;
+  padding: 10px;
 }
 
 .nav-link {
-  font-size: 1.1em !important;
+  font-size: 1em !important;
 }
 
 a {
