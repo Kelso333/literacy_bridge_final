@@ -213,14 +213,14 @@ footer p, .footerText {
 /********************** CONTACT PAGE *********************/
 
 .contactForm {
-  margin-top: 2.5rem;
+  margin-top: 2.9rem;
 }
 
 .form-control {
   width: 40%;
 }
 
-input, #contactSubmit {
+input, #contactSubmit, #comment {
   margin-left: 5rem;
 }
 
@@ -230,16 +230,17 @@ label {
 
 #contactSubmit {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   background-color: #6b3074;
   color: white;
 }
 
 .contactImage {
   width: 40%;
-  margin-top: -20rem;
-  margin-right: 2rem;
+  margin-top: -34rem;
+  margin-right: 3rem;
 }
+
 
 
 /*----------------------------------------------------------------------------*/
