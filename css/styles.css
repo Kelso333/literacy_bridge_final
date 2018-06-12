@@ -254,6 +254,29 @@ label {
 }
 
 
+/********************** DONATE PAGE *********************/
+
+#donateForm {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  margin-left: 6rem;
+  background-color: #6b3074;
+  color: white;
+}
+
+.donateImage {
+  width: 30%;
+  margin-top: -37rem;
+  margin-right: 6rem;
+}
+
+.donateHeader {
+  margin-top: 3rem;
+  color: #6b3074;
+  font-weight: bold;
+}
+
+
 /*----------------------------------------------------------------------------*/
 
 
