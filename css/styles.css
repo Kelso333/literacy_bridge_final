@@ -210,14 +210,36 @@ footer p, .footerText {
   width: 50%;
 }
 
-/********************** OUR PARTNERS PAGE *********************/
+/********************** CONTACT PAGE *********************/
 
-.form-control {
-  margin-top: 3rem;
-  margin-left: 2.5rem;
-  width: 80%;
+.contactForm {
+  margin-top: 2.5rem;
 }
 
+.form-control {
+  width: 40%;
+}
+
+input, #contactSubmit {
+  margin-left: 5rem;
+}
+
+label {
+  margin-left: 6rem;
+}
+
+#contactSubmit {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #6b3074;
+  color: white;
+}
+
+.contactImage {
+  width: 40%;
+  margin-top: -20rem;
+  margin-right: 2rem;
+}
 
 
 /*----------------------------------------------------------------------------*/
