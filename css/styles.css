@@ -45,10 +45,6 @@
   height: 27%; 
 }
 
-a {
-  color: #6b3074; 
-  font-weight: bold;
-}
 
 .jumbotron {
   background-color: #6b3074;
@@ -102,8 +98,9 @@ footer {
   padding-top: 2rem;
 }
 
-.footerText, footer p {
+.footerText, .cardLink {
   color: #ffff99;
+  font-weight: bold;
 }
 
 .display-5 {
@@ -138,6 +135,17 @@ footer {
 .dataText {
   margin-top: 1rem;
 }
+
+.footerLinks, footer p {
+  font-weight: lighter;
+  color: #ffff99;
+}
+
+.cardLink {
+  font-weight: lighter !important;
+  color: white;
+}
+
 /********************** TALKING BOOK PAGE *********************/
 
 
@@ -182,6 +190,10 @@ footer {
 
 .hrBook {
   margin-left: 7rem;
+}
+
+.tbPicText {
+  margin-top: 10rem;
 }
 
 
@@ -307,11 +319,16 @@ html, body {
 }
 
 .navbar-nav li {
-  padding: 20px;
+  padding: 15px;
 }
 
 .nav-link {
   font-size: 1.1em !important;
+}
+
+a {
+  color: #6b3074; 
+  font-weight: bold;
 }
 
 .carousel-inner img {
