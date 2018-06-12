@@ -237,10 +237,21 @@ label {
 
 .contactImage {
   width: 40%;
-  margin-top: -34rem;
+  margin-top: -35rem;
   margin-right: 3rem;
 }
 
+/********************** PRESS PAGE *********************/
+
+.articleOne {
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pressText {
+  font-size: 1.1rem;
+}
 
 
 /*----------------------------------------------------------------------------*/
@@ -294,7 +305,14 @@ html, body {
   padding-top: 2rem;
 }
 
-.welcome hr {
+.welcomePress {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.welcome hr, .welcomePress hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
   margin-top: .3rem;
