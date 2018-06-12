@@ -170,6 +170,49 @@ footer p, .footerText {
 .hrBook {
   margin-left: 7rem;
 }
+
+/********************** OUR PARTNERS PAGE *********************/
+
+#partnerLogos {
+  margin-bottom: 8rem;
+}
+
+.unicefLogo {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.armLogo {
+  width: 20%;
+  margin-left: 7rem;
+}
+
+.careLogo {
+  position: relative;
+  top: -7.3rem;
+  right: 8rem;
+}
+
+.partnerMainPage {
+  margin-top: -25rem;
+  margin-left: 29.7rem; 
+  background-color: #6b3074;
+  color: white;
+}
+
+.partnerWomen {
+  margin-top: -10rem;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
 /*----------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
