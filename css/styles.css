@@ -25,7 +25,7 @@
 
 .donateThree {
   margin-bottom: .4rem;
-  margin-left: 30.9rem;
+  margin-left: 32.7rem;
   background-color: #6b3074;
   color: white;
 }
@@ -92,6 +92,7 @@ iframe {
 
 .community {
   width: 80%;
+  margin-top: 2rem;
   margin-left: 7.0rem;
 }
 
@@ -101,8 +102,8 @@ footer {
   padding-top: 2rem;
 }
 
-footer p, .footerText {
-  color: white;
+.footerText, footer p {
+  color: #ffff99;
 }
 
 .display-5 {
@@ -130,7 +131,13 @@ footer p, .footerText {
   margin-left: 3rem;
 }
 
+.healthPic, .agriPic, .dataPic {
+  margin-top: 1rem;
+}
 
+.dataText {
+  margin-top: 1rem;
+}
 /********************** TALKING BOOK PAGE *********************/
 
 
