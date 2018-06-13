@@ -221,16 +221,20 @@ footer {
 }
 
 .partnerMainPage {
-  margin-top: -25rem;
+  margin-bottom: 3rem;
   margin-left: 29.7rem; 
   background-color: #6b3074;
   color: white;
 }
 
 .partnerWomen {
-  margin-top: -9rem;
+  /* margin-top: -9rem; */
   margin-bottom: 3rem;
   width: 50%;
+}
+
+.partnerInfo {
+  margin-top: -250px;
 }
 
 /********************** CONTACT PAGE *********************/
@@ -299,6 +303,26 @@ label {
   font-weight: bold;
 }
 
+/********************** UNICEF, ARM, AND CARE PAGE *********************/
+
+.partnerWelcome {
+  margin-top: 3rem;
+}
+
+.unicefHeader {
+  color: #ffff99;
+}
+
+
+.unicefInfoLogo {
+  margin-top: 2rem;
+  margin-left: 13rem;
+}
+
+.unicefText {
+  margin-left: 6rem;
+  color: #ffff99;
+}
 
 /*----------------------------------------------------------------------------*/
 
