@@ -324,6 +324,15 @@ label {
   color: #ffff99;
 }
 
+.unicefAssets {
+  font-weight: bold;
+}
+
+.unicefAssetText p {
+  font-size: 1.2em !important;
+  margin-top: 2rem;
+}
+
 /*----------------------------------------------------------------------------*/
 
 
